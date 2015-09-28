@@ -13,6 +13,7 @@
 
 				- if user_signed_in?
 					%ul.nav.navbar-nav.navbar-right
+						%li= link_to current_user.email, edit_user_registration_path
 						%li= link_to "Новый рецепт", new_recipe_path
 						%li= link_to "Выйти", destroy_user_session_path, method: :delete
 				- else
