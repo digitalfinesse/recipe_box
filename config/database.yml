@@ -26,6 +26,16 @@
 
 development:
   adapter: postgresql
-  host: localhost
-  username: user
-  database: app-dev
+  encoding: unicode
+  database: dfpd89otd0mpmj
+  pool: 5432
+  username: xntilqwkygkisn
+  password: wWhF-hXuLXgZQXbYEDHHqVIP39
+
+production::
+  adapter: postgresql
+  encoding: unicode
+  database: dfpd89otd0mpmj
+  pool: 5432
+  username: xntilqwkygkisn
+  password: wWhF-hXuLXgZQXbYEDHHqVIP39
