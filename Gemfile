@@ -15,11 +15,12 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'paperclip', '~> 4.3.1'
 gem 'cocoon', '~> 1.2.6'
 gem 'devise'
+gem 'rails_12factor', '~> 0.0.3'
 
 group :development, :test do
   gem 'byebug'
   gem 'pg', '~> 0.18.3'
-  gem 'rails_12factor', '~> 0.0.3'end
+end
 
 group :development do
   gem 'web-console', '~> 2.0'
@@ -28,5 +29,4 @@ end
 
 group  :production do
   gem 'pg', '~> 0.18.3'
-  gem 'rails_12factor', '~> 0.0.3'
 end 

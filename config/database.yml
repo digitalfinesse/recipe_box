@@ -35,7 +35,7 @@ development:
 production::
   adapter: postgresql
   encoding: unicode
-  database: recipe_box_pg
+  database: dfpd89otd0mpmj
   pool: 5
-  username: admin
-  password: 12345678
+  username: xntilqwkygkisn
+  password: wWhF-hXuLXgZQXbYEDHHqVIP39
