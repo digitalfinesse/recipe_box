@@ -18,8 +18,8 @@ gem 'devise'
 
 group :development, :test do
   gem 'byebug'
-  gem 'sqlite3'
-end
+  gem 'pg', '~> 0.18.3'
+  gem 'rails_12factor', '~> 0.0.3'end
 
 group :development do
   gem 'web-console', '~> 2.0'

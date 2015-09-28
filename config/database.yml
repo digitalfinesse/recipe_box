@@ -29,7 +29,7 @@ development:
   encoding: unicode
   database: recipe_box_development
   pool: 5
-  username: admin
+  username: evgeniypalguev
   password: 12345678
 
 production::
