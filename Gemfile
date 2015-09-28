@@ -16,10 +16,10 @@ gem 'paperclip', '~> 4.3.1'
 gem 'cocoon', '~> 1.2.6'
 gem 'devise'
 gem 'rails_12factor', '~> 0.0.3'
+gem 'pg', '~> 0.18.3'
 
 group :development, :test do
   gem 'byebug'
-  gem 'pg', '~> 0.18.3'
 end
 
 group :development do
@@ -28,5 +28,5 @@ group :development do
 end
 
 group  :production do
-  gem 'pg', '~> 0.18.3'
+
 end 
